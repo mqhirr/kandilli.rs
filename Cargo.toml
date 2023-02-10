@@ -3,6 +3,20 @@ name = "kandilli"
 version = "0.1.0"
 edition = "2021"
 
+authors = ["mqhirr"]
+keywords = ["deprem", "kandilli"]
+documentation = "https://docs.rs/kandilli"
+repository = "https://github.com/mqhirr/kandilli.rs"
+description = "Kandilli Rasathanesi'nden deprem bilgisini almak için yapılan bir kütüphane."
+
+[[example]]
+name = "tekli"
+path = "examples/tekli.rs"
+
+[[example]]
+name = "coklu"
+path = "examples/coklu.rs"
+
 [dependencies]
 ureq = "*"
 dateparser = "0.1.8"
