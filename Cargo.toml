@@ -19,7 +19,7 @@ name = "coklu"
 path = "examples/coklu.rs"
 
 [dependencies]
-ureq = "*"
+ureq = "2.6.2"
 dateparser = "0.1.8"
 chrono = { version = "0.4.23" }
 tl = { version = "0.7.7", features = ["simd"] }
