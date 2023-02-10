@@ -1,0 +1,11 @@
+[package]
+name = "kandilli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ureq = "*"
+dateparser = "0.1.8"
+chrono = { version = "0.4.23" }
+tl = { version = "0.7.7", features = ["simd"] }
+serde = { version = "1.0", features = ["derive"] }
